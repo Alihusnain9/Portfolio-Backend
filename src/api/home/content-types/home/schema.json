@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mypic": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "headingName": {
+      "type": "string",
+      "required": true
+    },
+    "HeadingWork": {
+      "type": "string",
+      "required": true
+    },
+    "workDetail": {
+      "type": "string"
+    }
+  }
+}
